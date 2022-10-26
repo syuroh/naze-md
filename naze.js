@@ -1909,7 +1909,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': {
-                naze.sendContact(m.chat, global.owner, m)
+                Fahri.sendContact(m.chat, global.owner, m)
             }
             break
             /**case 'setmenu': {
